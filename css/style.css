@@ -1,0 +1,24 @@
+#gallery {
+  display: flex;
+  border: solid 2px teal;
+}
+
+#gallery li img {
+  width: 300px;
+  height: 300px;
+  justify-content: space-around;
+}
+
+
+/* ==================================== */
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
